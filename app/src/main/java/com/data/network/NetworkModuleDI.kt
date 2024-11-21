@@ -1,12 +1,13 @@
-package com.example.kotlin.wushuapp.data.network
+package com.data.network
 
 import android.content.Context
-import com.example.kotlin.wushuapp.utils.Constants.APPLICATION_ID
-import com.example.kotlin.wushuapp.utils.Constants.BASE_URL
-import com.example.kotlin.wushuapp.utils.Constants.CLIENT_KEY
+import com.utils.Constants.APPLICATION_ID
+import com.utils.Constants.BASE_URL
+import com.utils.Constants.CLIENT_KEY
 import com.parse.Parse
 import com.parse.ParseCloud
 import com.parse.ParseException
+
 
 /**
  * Módulo de inyección de dependencias responsable de inicializar Parse y
